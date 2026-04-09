@@ -14,6 +14,10 @@
     "react": "^19.2.4",
     "react-dom": "^19.2.4"
   },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist -r https://avrijalajah.github.io/Weather-App/"
+  },
   "devDependencies": {
     "@eslint/js": "^9.39.4",
     "@tailwindcss/postcss": "^4.2.2",
